@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+*.pkl
+.firecrawl/
+agent/regime/models/
+finrl_trial3.pdf
+node_modules/

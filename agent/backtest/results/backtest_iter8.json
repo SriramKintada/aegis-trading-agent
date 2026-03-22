@@ -1,0 +1,15 @@
+{
+  "iteration": 8,
+  "trades": 151,
+  "win_rate": 0.5894,
+  "return_pct": 0.746,
+  "sharpe": 8.1385,
+  "sortino": 11.3502,
+  "max_dd": -0.2296,
+  "profit_factor": 1.43,
+  "crosscheck": "MATCH",
+  "arb_trades": 27,
+  "arb_win_rate": 1.0,
+  "arb_pnl": 23.4299,
+  "governance_vetoes": 76
+}

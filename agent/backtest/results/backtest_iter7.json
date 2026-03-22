@@ -1,0 +1,9 @@
+{
+  "trades": 74,
+  "win_rate": 0.4324,
+  "return_pct": 0.0896,
+  "sharpe": 2.2907,
+  "max_dd": -0.3572,
+  "profit_factor": 1.087,
+  "crosscheck": "MATCH"
+}

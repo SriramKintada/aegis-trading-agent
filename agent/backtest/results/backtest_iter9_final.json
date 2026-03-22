@@ -1,0 +1,58 @@
+{
+  "primary": {
+    "label": "ETH/USD Primary",
+    "trades": 264,
+    "capital_final": 10007.76,
+    "return_pct": 0.000776,
+    "win_rate": 0.697,
+    "sharpe": -0.9179,
+    "sortino": -1.0928,
+    "max_dd": -0.011905,
+    "profit_factor": 1.021,
+    "crosscheck": true,
+    "rebalance_trades": 33
+  },
+  "oos_btc": {
+    "label": "BTC/USD Out-of-Sample",
+    "trades": 248,
+    "capital_final": 9970.18,
+    "return_pct": -0.002982,
+    "win_rate": 0.685,
+    "sharpe": -5.4454,
+    "sortino": -7.2934,
+    "max_dd": -0.007958,
+    "profit_factor": 0.887,
+    "crosscheck": true,
+    "rebalance_trades": 30
+  },
+  "flash_crash": {
+    "pass": true,
+    "return": 0.001591
+  },
+  "flat_market": {
+    "pass": false,
+    "trades_in_flat": 57
+  },
+  "double_costs": {
+    "pass": false,
+    "return": -0.022804
+  },
+  "regime_flip": {
+    "pass": false,
+    "return": 0.010993,
+    "note": "Flipping regimes IMPROVED performance, meaning regime detection hurts"
+  },
+  "bootstrap": {
+    "p_value": 0.5657,
+    "pct_profitable": 0.434,
+    "sharpe_ci": [-10.6571, 8.2849],
+    "mean_return": -0.000139
+  },
+  "random_benchmark": {
+    "avg_return": 0.00534,
+    "avg_sharpe": 1.2499,
+    "aegis_vs_random": -0.004564,
+    "beats_random": false
+  },
+  "verdict": "NOT READY"
+}

@@ -1,0 +1,69 @@
+{
+  "start_time": "2025-12-28 22:00:00",
+  "end_time": "2026-03-22 06:00:00",
+  "total_bars": 2001,
+  "initial_capital": 10000.0,
+  "slippage_pct": 0.001,
+  "commission_pct": 0.0005,
+  "final_capital": 9913.48,
+  "total_return_pct": -0.8652,
+  "total_trades": 287,
+  "winning_trades": 107,
+  "losing_trades": 180,
+  "win_rate": 0.3728,
+  "profit_factor": 0.8755,
+  "sharpe_ratio": -2.2157,
+  "sortino_ratio": -1.8277,
+  "max_drawdown_pct": -1.3788,
+  "calmar_ratio": -0.6275,
+  "avg_trade_duration": 9.2,
+  "pnl_sum_method": -86.5178,
+  "pnl_portfolio_method": -86.5178,
+  "pnl_match": "True",
+  "strategy_stats": {
+    "SentimentPulseStrategy": {
+      "trades": 114,
+      "wins": 44,
+      "win_rate": 0.38596491228070173,
+      "total_pnl": -2.39,
+      "avg_duration": 6.8
+    },
+    "MomentumStrategy": {
+      "trades": 78,
+      "wins": 29,
+      "win_rate": 0.3717948717948718,
+      "total_pnl": -14.7,
+      "avg_duration": 13.3
+    },
+    "MeanReversionStrategy": {
+      "trades": 95,
+      "wins": 34,
+      "win_rate": 0.35789473684210527,
+      "total_pnl": -69.42,
+      "avg_duration": 8.7
+    }
+  },
+  "regime_stats": {
+    "BEAR_TRENDING": {
+      "trades": 65,
+      "total_pnl": 34.74,
+      "best_strategy": "SentimentPulseStrategy"
+    },
+    "HIGH_VOL_CHOPPY": {
+      "trades": 122,
+      "total_pnl": -57.2,
+      "best_strategy": "SentimentPulseStrategy"
+    },
+    "BULL_TRENDING": {
+      "trades": 21,
+      "total_pnl": 32.19,
+      "best_strategy": "MomentumStrategy"
+    },
+    "MEAN_REVERTING": {
+      "trades": 79,
+      "total_pnl": -96.25,
+      "best_strategy": "MomentumStrategy"
+    }
+  },
+  "trade_count": 287
+}

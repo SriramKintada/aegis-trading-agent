@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-03-22T10:57:16.079575+00:00",
+    "action": "WRAP_ETH_TO_WETH",
+    "tx_hash": "c80ef779c01e1d1d6f39b5052c307dcacefef6bd4c24da99c88a53b409b16e3b",
+    "basescan": "https://basescan.org/tx/c80ef779c01e1d1d6f39b5052c307dcacefef6bd4c24da99c88a53b409b16e3b",
+    "details": "Wrapped 0.001 ETH to WETH"
+  },
+  {
+    "timestamp": "2026-03-22T10:57:19.738362+00:00",
+    "action": "APPROVE_WETH",
+    "tx_hash": "e7de2f67167ec3ce1622c24245f106ce3640e9dea63fab481b9965d3389f8af4",
+    "basescan": "https://basescan.org/tx/e7de2f67167ec3ce1622c24245f106ce3640e9dea63fab481b9965d3389f8af4",
+    "details": "Approved WETH spending for SwapRouter02"
+  },
+  {
+    "timestamp": "2026-03-22T10:57:23.537082+00:00",
+    "action": "SWAP_WETH_TO_USDC",
+    "tx_hash": "8fd1e20d8ab9ab39ed86f60d9468a20073739cced2e0ea43d5e13fac624a29f8",
+    "basescan": "https://basescan.org/tx/8fd1e20d8ab9ab39ed86f60d9468a20073739cced2e0ea43d5e13fac624a29f8",
+    "details": "Swapped 0.001 WETH to USDC via Uniswap V3"
+  },
+  {
+    "timestamp": "2026-03-22T10:57:29.117433+00:00",
+    "action": "APPROVE_USDC",
+    "tx_hash": "f5ca8fd06099b135d61e54cfc02533dbe4a0e03c01b985a52721529cf5adc02e",
+    "basescan": "https://basescan.org/tx/f5ca8fd06099b135d61e54cfc02533dbe4a0e03c01b985a52721529cf5adc02e",
+    "details": "Approved USDC spending for SwapRouter02"
+  },
+  {
+    "timestamp": "2026-03-22T10:57:33.217518+00:00",
+    "action": "SWAP_USDC_TO_WETH",
+    "tx_hash": "8a3d7c89ce050adf771c3e1c1599ace3af85a1b5a69548c520e75f8eff438b31",
+    "basescan": "https://basescan.org/tx/8a3d7c89ce050adf771c3e1c1599ace3af85a1b5a69548c520e75f8eff438b31",
+    "details": "Swapped 2.08 USDC back to WETH via Uniswap V3"
+  },
+  {
+    "timestamp": "2026-03-22T10:57:38.479420+00:00",
+    "action": "UNWRAP_WETH_TO_ETH",
+    "tx_hash": "3d6a5db570cfa8aefb6fa9c7044c4a9fadc8c2cc797cb4954d512fd62e20f73d",
+    "basescan": "https://basescan.org/tx/3d6a5db570cfa8aefb6fa9c7044c4a9fadc8c2cc797cb4954d512fd62e20f73d",
+    "details": "Unwrapped 0.000999 WETH back to ETH"
+  }
+]
