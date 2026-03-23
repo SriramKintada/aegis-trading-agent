@@ -6,3 +6,10 @@ __pycache__/
 agent/regime/models/
 finrl_trial3.pdf
 node_modules/
+
+agent/submit_draft.py
+agent/overnight_log.json
+agent/fetch_tracks.py
+agent/get_track_uuids.py
+*.json
+!package.json
