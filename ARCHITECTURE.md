@@ -10,7 +10,7 @@
 
 **What makes AEGIS different from a generic trading bot:**
 1. **HMM Regime Awareness** — The agent knows *what market it's in*, not just what price is doing. Hidden Markov Models classify the current regime (trending/mean-reverting/volatile/choppy) and the entire strategy stack adapts accordingly. Most bots run the same logic in all regimes and blow up.
-2. **FinBERT Sentiment Layer** — Institutional-grade NLP scoring of news + social feeds, similar to what Alpha Alternatives (India's largest alt manager) uses in production.
+2. **FinBERT Sentiment Layer** — Institutional-grade NLP scoring of news + social feeds, similar to what top quantitative asset managers use in production.
 3. **Genetic Strategy Evolution** — Strategies compete in a simulation tournament; only the fittest get capital. Population evolves every 24h.
 4. **ERC-8004 Identity** — The agent has a verifiable on-chain identity, reputation, and trackable history — not just a wallet, but a *certified agent*.
 5. **bond.credit Score** — The agent's profitable track record accrues an on-chain credit score, enabling it to eventually access leveraged capital from the Agentic Credit Vaults.

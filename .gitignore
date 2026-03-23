@@ -13,3 +13,8 @@ agent/fetch_tracks.py
 agent/get_track_uuids.py
 *.json
 !package.json
+
+# Internal documents (not for public distribution)
+PERSONAL_RESEARCH_REPORT.md
+TODO.md
+SKILL.md

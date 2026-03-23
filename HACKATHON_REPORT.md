@@ -165,6 +165,7 @@ The project grew into a serious quant research platform:
 agent/
 ├── main.py                    # Orchestration loop (29KB)
 ├── mainnet_trader.py          # Live mainnet execution (20KB)
+├── momentum_trader.py         # Latest evolution: momentum-focused live trader (31KB)
 ├── config.py                  # Environment & parameters (5.4KB)
 ├── regime/
 │   ├── hmm_detector.py        # GaussianHMM 4-state model (10KB)
@@ -199,6 +200,18 @@ agent/
     ├── run_iter8.py           # Cross-DEX arb iteration (22.9KB)
     └── VERDICT.md             # Honest final assessment
 ```
+
+### Latest Evolution: momentum_trader.py
+
+Following the backtest verdict, `momentum_trader.py` (31KB) represents the most recent iteration of the live trading module. It incorporates the key lessons from all 9 research iterations:
+
+- **Cost-aware entry gates** — minimum expected profit must exceed 5× transaction costs before any position is opened
+- **Asymmetric R:R enforcement** — stop loss capped at 1%, take profit targets 3%+ (3:1 minimum ratio)
+- **Regime-conditional execution** — HIGH_VOL_CHOPPY regime fully suppressed; only trades in BULL/BEAR_TRENDING
+- **Tighter confidence thresholds** — entry confidence gate raised to 0.60 (vs 0.44 in earlier iterations)
+- **Direct Uniswap V3 execution** — SwapRouter02 integration with receipt verification before proceeding
+
+This module is the living product of the research process: a leaner, more disciplined trader built on what the data actually showed.
 
 ### Walk-Forward Backtester with Bias Audit
 
