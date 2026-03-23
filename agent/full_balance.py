@@ -1,3 +1,7 @@
+"""
+full_balance.py — Comprehensive balance report for the AEGIS bot wallet: ETH, WETH, USDC
+with USD estimates and current nonce (Base mainnet).
+"""
 from web3 import Web3
 import json
 

@@ -1,3 +1,6 @@
+"""
+check_balance.py — Quick ETH balance check for the AEGIS bot wallet on Base mainnet.
+"""
 from web3 import Web3
 w3 = Web3(Web3.HTTPProvider('https://mainnet.base.org'))
 print(f'Connected: {w3.is_connected()}')

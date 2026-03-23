@@ -1,3 +1,6 @@
+"""
+check_all.py — Quick balance check for ETH, WETH, and USDC on the AEGIS bot wallet (Base mainnet).
+"""
 from web3 import Web3
 import json
 

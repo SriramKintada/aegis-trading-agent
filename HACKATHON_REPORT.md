@@ -4,7 +4,11 @@
 
 ---
 
-> **"Most trading bots claim 300% returns. We ran 9 iterations of rigorous backtesting and discovered our directional strategies don't beat random entry after costs. That honesty — and what we found instead — is the innovation."**
+> **"Most trading bots claim 300% returns. We ran 9 iterations of rigorous walk-forward backtesting — the same methodology used by institutional quantitative funds — and discovered our directional strategies don't beat random entry after costs. That honesty, and what we found instead, is the innovation."**
+
+### The Story in One Paragraph
+
+A computer science student with a background in quantitative finance research built an institutional-grade autonomous trading system in 14 hours — not by cutting corners, but by applying the same research discipline that hedge funds use. Nine backtest iterations. Walk-forward validation. Bootstrap significance testing. Out-of-sample cross-validation. A 13-point look-ahead bias audit. Real mainnet transactions with on-chain proof. And at the end: the honest finding that most DeFi trading bots don't want to admit. The infrastructure works. The research methodology is sound. The real edge is mathematical arbitrage, not directional prediction. This report documents everything.
 
 ---
 
